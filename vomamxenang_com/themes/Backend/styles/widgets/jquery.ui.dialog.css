@@ -1,0 +1,51 @@
+/*
+ * jQuery UI Dialog 1.8.11
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Dialog#theming
+ */
+.ui-dialog{position:absolute;padding:.2em;width:300px;overflow:hidden;}.ui-dialog .ui-dialog-titlebar{padding:0.5em 0.3em 0.3em 1em;position:relative;}.ui-dialog .ui-dialog-title{/*float:left;*/margin:.1em 16px .1em 0; font-size: 1.4em;}.ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:19px;margin:-10px 0 0 0;padding:1px;height:18px;}.ui-dialog .ui-dialog-titlebar-close span{display:block;margin:1px;}.ui-dialog .ui-dialog-titlebar-close:hover,.ui-dialog .ui-dialog-titlebar-close:focus{padding:0;}.ui-dialog .ui-dialog-content{position:relative;border:0;padding:.5em 1em;background:none;overflow:auto;zoom:1;}.ui-dialog .ui-dialog-buttonpane{text-align:left;border-width:1px 0 0 0;background-image:none;margin:.5em 0 0 0;padding:.3em 1em .5em .4em;}.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{float:right;}.ui-dialog .ui-dialog-buttonpane button{margin:.5em .4em .5em 0;cursor:pointer;}.ui-dialog .ui-resizable-se{width:14px;height:14px;right:3px;bottom:3px;}.ui-draggable .ui-dialog-titlebar{cursor:move;}
+.ui-dialog.ui-corner-all,
+.ui-dialog .ui-corner-all {
+    border-radius: 4px 4px 4px 4px;
+}
+.ui-dialog.ui-widget-content,
+.ui-dialog .ui-widget-content {
+    background: url("../../images/jquery-ui/ui-bg_flat_75_ffffff_40x100.png") repeat-x scroll 50% 50% #FFFFFF;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+}
+.ui-dialog .ui-widget-header {
+    background: url("../../images/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50% #CCCCCC;
+    border: 1px solid #AAAAAA;
+    color: #222222;
+    font-weight: bold;
+}
+.ui-dialog .ui-state-hover, .ui-dialog .ui-widget-content .ui-state-hover, .ui-dialog .ui-state-focus, .ui-dialog .ui-widget-content .ui-state-focus {
+    background: url("../../images/jquery-ui/ui-bg_glass_75_dadada_1x400.png") repeat-x scroll 50% 50% #DADADA;
+    border: 1px solid #999999;
+    color: #212121;
+    font-weight: normal;
+    outline: medium none;
+}
+.ui-state-hover .ui-icon, .ui-dialog .ui-state-focus .ui-icon {
+    background-image: url("../../images/jquery-ui/ui-icons_454545_256x240.png");
+}
+.ui-dialog .ui-widget-header .ui-icon {
+    background-image: url("../../images/jquery-ui/ui-icons_222222_256x240.png");
+}
+.ui-dialog .ui-icon-closethick {
+    background-position: -96px -128px;
+}
+.ui-dialog .ui-icon {
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+    height: 16px;
+    width: 16px;
+}
+.ui-dialog .ui-dialog-content {border: none;}

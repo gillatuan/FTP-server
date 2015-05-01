@@ -1,0 +1,1 @@
+<?phpreturn array(    'connectionString' => 'mysql:host=' . DB_HOST . ';port=' . DB_PORT . ';dbname=' . DB_NAME,    'emulatePrepare'   => true,    'username'         => DB_USER,    'password'         => stripslashes(DB_PSWD),    'charset'          => 'utf8',);
